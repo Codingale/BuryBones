@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <packageId>codingale.burybones</packageId>
+    <name>Bury Bones</name>
+    <supportedVersions>
+        <li>1.4</li>
+    </supportedVersions>
+    <author>Codingale</author>
+    <url>https://github.com/Codingale/BuryBones</url>
+    <description>Allows you to bury skeletons in the ground without making a grave or an incinerator.</description>
+    <modDependencies>
+    </modDependencies>
+    <loadAfter>
+        <li>Ludeon.RimWorld</li>
+    </loadAfter>
+    <loadBefore>
+    </loadBefore>
+</ModMetaData>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<BuryBones>BuryBones</BuryBones>
+	
+	<BuryBones.DesignatorBuryCorpse>Bury Corpse</BuryBones.DesignatorBuryCorpse>
+	<BuryBones.DesignatorBuryCorpseDesc>Mark for shallow grave burial.</BuryBones.DesignatorBuryCorpseDesc>
+
+	<BuryBones.NoCorpse>No valid corpse found.</BuryBones.NoCorpse>
+
+	<BuryBones.SoilOnly>Bury only in soil turfs?</BuryBones.SoilOnly>
+	<BuryBones.SoilOnlyDesc>Should the pawn look for dirt, or similar soil to bury the corpse in instead of buring them under the floorboards?</BuryBones.SoilOnlyDesc>
+
+	<BuryBones.SkeletonOnly>Only bury corpses that have turned into a skeleton?</BuryBones.SkeletonOnly>
+	<BuryBones.SkeletonOnlyDesc>Only bury pawns with no flesh.</BuryBones.SkeletonOnlyDesc>
+
+	<BuryBones.Debug>Debug Logging?</BuryBones.Debug>
+	<BuryBones.DebugDesc>Just some debug logging, not needed.</BuryBones.DebugDesc>
+	
+</LanguageData>

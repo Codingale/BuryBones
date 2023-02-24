@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <DesignationDef>
+        <defName>BuryBonesDesignator</defName>
+        <texturePath>UI/Designators/BuryCorpseDesignation</texturePath> <!-- TODO: replace -->
+        <targetType>Thing</targetType>
+      </DesignationDef>
+
+      <JobDef>
+        <defName>BuryBones</defName>
+        <driverClass>BuryBones.JobDriver_BuryBones</driverClass>
+        <reportString>Burying bones of TargetA.</reportString>
+        <suspendable>false</suspendable>
+      </JobDef>
+
+      <WorkGiverDef>
+        <defName>BuryBonesWorkGiver</defName>
+        <label>bury corpses</label>
+        <giverClass>BuryBones.WorkGiver_BuryCorpse</giverClass>
+        <workType>Hauling</workType>
+        <priorityInType>40</priorityInType>
+        <verb>bury</verb>
+        <gerund>burying</gerund>
+        <requiredCapacities>
+          <li>Manipulation</li>
+        </requiredCapacities>
+      </WorkGiverDef>
+      
+</Defs>
